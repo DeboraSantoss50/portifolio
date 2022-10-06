@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.menu{
+    background-image: url(../assets/img-florestavermelha2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+    max-width: 820vh;
+}
+.logo{
+    width: 100%;
+    height: 9.0rem;
+    background-color: rgba(0,0,0,0.61)
+}
+.logo ul{
+    float: right;
+    margin-right: 1rem;
+}
+.logo ul li{
+    list-style: none;
+    margin: 0%,.8rem;
+    display: inline-block;
+    line-height: 8.0rem;
+}
+.logo ul li a{
+    text-decoration: overline;
+    color: white;
+    font-size: 2.4rem;
+    padding: .6rem 1.3rem;
+}
+.frase__menu{
+    display: flex;
+    position: absolute;
+    font-family: 'Philosopher';
+    color: white;
+    
+   
+}
+section{
+    display: flex;
+    background-color: #060606;
+    
+}
+.nome{
+    display: flex;
+    height: 20rem;
+    right: 5rem;
+}
+.foto__perfil{
+    display: flex;
+    position: absolute;
+    margin-right: 20rem;
+    bottom: 1rem;
+    left: 10rem;
+
+}
+.nome h2{
+    display: flex;
+    font-family: 'Great Vibes',cursive;
+    font-size: 7rem;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 8.0rem;
+    float: right;
+    margin-left: 50rem;
+    position: absolute;
+    top: 54rem;
+    right: -9rem;
+}
+.qualificacoes{
+    display: block;
+    background-color: #6C6C6C;
+    height: 40.8rem;   
+   position: relative;
+}
+span{
+    display: flex;
+    font-size: 3rem;
+    right: 2rem;
+}
+.qualificacoes p{
+    display: flex;
+    position: absolute;
+    font-family:'Philosopher,sans serif';
+    font-size:3rem;
+    font-weight: 400;
+    height: 2rem;
+    width: 3.5rem;
+    line-height: 2.3rem;
+    top: 20rem;
+    justify-content:flex-start;
+    margin-left: 1rem;
+    color: rgb(22, 17, 17);
+   
+}
+
+
+.pessoal{
+    display: flex;
+    background-color: #060606;
+    height: 30rem;
+    position: relative;
+}
+.pessoal p{
+    display: flex;
+    color: white;
+    height: 18rem;
+    font-family: 'Inria Serif';
+    font-size: 2.5rem;
+    transform: translate(50%,40%);
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    right: 70rem;  
+    top: -40rem;   
+}
+.contatos{
+    display: flex;
+    background-color: #6C6C6C;    
+    position: relative;
+}
+
+.contatos__email{
+    display: flex;
+    right: .50rem;
+    position: absolute;
+    top:-15rem;
+    bottom: 3rem;
+    color: white;
+    left: 7rem;
+}
+.contatos__telefone{
+    display: flex;
+    transform: translate(50%,20%);
+    position: absolute;
+    top: -18rem;
+    color: white;
+    bottom: 3rem;
+    left: 23rem;
+    right: 1rem;
+}
